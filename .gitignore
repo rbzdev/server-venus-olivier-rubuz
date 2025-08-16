@@ -1,0 +1,30 @@
+# Ignorer le dossier des modules Node
+node_modules/
+
+# (Optionnel) quelques autres fichiers courants
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Environnements
+.env
+.env.*
+!.env.example
+
+# Cache / build
+dist/
+build/
+.cache/
+.tmp/
+coverage/
+
+# OS / éditeurs
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
